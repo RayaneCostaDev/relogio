@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: horas;
+}
+
+body {
+    background: url("https://wallpaperaccess.com/full/2641100.gif") center;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.relogio {
+    display: flex;
+    width: 90%;
+    padding: 3%;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;    
+    box-shadow: 0 0px 10px #3785f3ab;
+    background-color: transparent;
+    color: #fff;
+}
+
+.relogio div {
+    background-color: rgba(98, 169, 228, 0.119);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 2%;
+    padding: 3%;
+    justify-content: center;
+    border-radius: 8px;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.relogio span  {
+    font-size: 4rem;
+}
+
+.relogio span.tempo {
+    font-size: .8rem;
+    padding-top: 1rem;
+}
+
+@media (max-width: 600px) {
+    body {
+        background: url("https://media.tenor.com/1f5GKwTdC9QAAAAM/cyber-cityy.gif") center;
+
+    .relogio {
+        flex-direction: column;
+    }
+}
+
+@font-face {
+    font-family: horas;
+    src: url(A\ Goblin\ Appears!.otf);
+}
+
+
